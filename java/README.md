@@ -38,7 +38,7 @@ public static int fizzbuzz(int n, int max) {
 }
 ```
 
-In the end the solution uses a for each loop by generating an array in a range from 1 to 100. Similar to how you can do `new Array(100).fill(0).map((_, i) => i)` or `Array.from(Array(100).keys())`, in Java you can do:
+In the end the solution uses a for each loop by generating an array in a range from 1 to 100. Similar to how you can do `new Array(100).fill(0).map((_, i) => i)` or `Array.from(Array(100).keys())` in JS, in Java you can do:
 
 ```java
 for (int n : IntStream.range(0, 100).boxed().collect(Collectors.toList())) {
