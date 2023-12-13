@@ -1,0 +1,13 @@
+/* CSS properties do not require the last property to end in a semicolon... */
+.class {
+  color: #fff
+}
+
+/* ...therefore, you can seperate multiple properties into multiple lines */
+.class {
+  background-color: #000
+}
+
+.class {
+  padding: 10px
+}
